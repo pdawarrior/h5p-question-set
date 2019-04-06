@@ -1,63 +1,63 @@
 {
   "semantics": [
     {
-      "label": "Quiz introduction",
+      "label": "Giới thiệu bài kiểm tra",
       "fields": [
         {
-          "label": "Display introduction"
+          "label": "Hiển thị giới thiệu"
         },
         {
-          "label": "Title",
-          "description": "This title will be displayed above the introduction text."
+          "label": "Tiêu đề",
+          "description": "Tiêu đề này sẽ được hiển thị trên văn bản giới thiệu."
         },
         {
-          "label": "Introduction text",
-          "description": "This text will be displayed before the quiz starts."
+          "label": "Văn bản giới thiệu",
+          "description": "Văn bản này sẽ được hiển thị trước khi bài kiểm tra bắt đầu."
         },
         {
-          "label": "Start button text",
-          "default": "Start Quiz"
+          "label": "Văn bản nút bắt đầu",
+          "default": "Bắt đầu bài kiểm tra"
         },
         {
-          "label": "Background image",
-          "description": "An optional background image for the introduction."
+          "label": "Hình nền",
+          "description": "Một hình ảnh nền tùy chọn cho phần giới thiệu."
         }
       ]
     },
     {
-      "label": "Background image",
-      "description": "An optional background image for the Question set."
+      "label": "Hình nền",
+      "description": "Một hình nền tùy chọn cho bộ Câu hỏi."
     },
     {
-      "label": "Progress indicator",
-      "description": "Question set progress indicator style.",
+      "label": "Chỉ báo tiến độ",
+      "description": "Kiểu chỉ báo tiến độ bộ câu hỏi",
       "options": [
         {
-          "label": "Textual"
+          "label": "Văn bảnChấm"
         },
         {
-          "label": "Dots"
+          "label": "Chấm"
         }
       ]
     },
     {
-      "label": "Pass percentage",
-      "description": "Percentage of Total score required for passing the quiz."
+      "label": "Tỷ lệ phần trăm đạt",
+      "description": "Tỷ lệ phần trăm của tổng số điểm cần thiết để vượt qua bài kiểm tra."
     },
     {
-      "label": "Questions",
+      "label": "Câu hỏi",
       "widgets": [
         {
-          "label": "Default"
+          "label": "Mặc định"
         },
         {
-          "label": "Textual"
+          "label": "Văn bản"
         }
       ],
       "entity": "question",
       "field": {
-        "label": "Question type",
-        "description": "Library for this question."
+        "label": "Loại câu hỏi",
+        "description": "Thư viện cho câu hỏi này"
       }
     },
     {
