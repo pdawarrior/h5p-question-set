@@ -33,7 +33,7 @@
       "description": "Kiểu chỉ báo tiến độ bộ câu hỏi",
       "options": [
         {
-          "label": "Văn bảnChấm"
+          "label": "Văn bản Chấm"
         },
         {
           "label": "Chấm"
@@ -61,36 +61,36 @@
       }
     },
     {
-      "label": "Interface texts in quiz",
+      "label": "Giao diện văn bản trong bài kiểm tra",
       "fields": [
         {
-          "label": "Back button",
-          "default": "Previous question"
+          "label": "Nút quay lại",
+          "default": "Câu hỏi trước"
         },
         {
-          "label": "Next button",
-          "default": "Next question"
+          "label": "Nút tiếp theo",
+          "default": "Câu hỏi tiếp theo"
         },
         {
-          "label": "Finish button",
-          "default": "Finish"
+          "label": "Nút kết thúc",
+          "default": "Kết thúc"
         },
         {
-          "label": "Progress text",
-          "description": "Text used if textual progress is selected.",
-          "default": "Question: @current of @total questions"
+          "label": "Văn bản tiến độ",
+          "description": "Văn bản được sử dụng nếu tiến trình văn bản được chọn.",
+          "default": "Câu hỏi: @current của @total câu hỏi"
         },
         {
-          "label": "Label for jumping to a certain question",
-          "description": "You must use the placeholder '%d' instead of the question number, and %total instead of total amount of questions.",
-          "default": "Question %d of %total"
+          "label": "Nhãn để nhảy đến một câu hỏi nhất định",
+          "description": "Bạn phải sử dụng trình giữ chỗ '%d' thay vì số câu hỏi và %total thay vì tổng số câu hỏi.",
+          "default": "Câu hỏi %d trên số %total"
         },
         {
-          "label": "Copyright dialog question label",
-          "default": "Question"
+          "label": "Nhãn câu hỏi hộp thoại bản quyền",
+          "default": "Câu hỏi"
         },
         {
-          "label": "Readspeaker progress",
+          "label": "Tiến trình đọc",
           "description": "May use @current and @total question variables",
           "default": "Question @current of @total"
         },
